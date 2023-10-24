@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="e-commerce.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sans&display=swap" rel="stylesheet">
+
+    
+    <link href="bootstrap.css" rel="stylesheet">
+	<link rel ="stylesheet" type = "text/css" href = "static/css/bootstrap.css" />
+    
+</head>
+<body>
+    <!-- page navbar -->
+    <section class="container">
+       <div class="navbar mt-3">
+    
+        <img class="icon-menu" src="images/icon-menu.svg">
+        <img class="mx-4" src="images/logo.svg"> 
+            
+        <div class="nav-text">
+            <p class="mx-2 p-2 mt-3">Collections</p>
+               <p class=" mx-2 p-2 mt-3">Men</p>
+               <p class=" mx-2 p-2 mt-3">Women</p>
+               <p class=" mx-2 p-2 mt-3">About</p>
+               <p class=" mx-2 p-2 mt-3">Contact</p>
+        </div>
+        <div class="ms-5">
+               <img src="images/icon-cart.svg">
+        </div>
+          <div class="avatar ms-5">
+            <img  class="w-50" src="images/image-avatar.png">
+          </div>
+              
+          </div>
+        
+        <hr>
+    <section>
+    <!-- page body -->
+        <!-- counter on the cart -->
+        <div class="cartCount">
+<p></p>
+        </div>
+        <div class="main-pageholder d-flex gap-5">
+            <div id="page-body">
+          
+        
+        <div class="layer1 mt-5 mx-5">
+            <div class="main-gallery w-100">
+                <img class="frame w-100" id="main-Product" src="images/image-product-1.jpg">
+
+            </div>
+            <div class="mini-gallery gap-5">
+                <img class="mini-frame" id="product1" src="images/image-product-1-thumbnail.jpg" >
+                    
+                <img class=" main mini-frame ms-3" id="product2"  src="images/image-product-2-thumbnail.jpg">
+                <img class="mini-frame ms-3" id="product3" src="images/image-product-3-thumbnail.jpg">
+                <img class="mini-frame  ms-2" id="product4" src="images/image-product-4-thumbnail.jpg">
+            </div>
+                
+               
+            </div>
+    </div>
+    
+          <div class="page-holder"> 
+            
+            <div class="layer2">
+            <p class="sneaker">SNEAKER COMPANY</p>
+            <span class="text mt-5">Fall Limited Edition <br>Sneakers</span>
+
+          <p class="text2  mt-4 pe-5 fs-5">
+        These low-profile sneakers are your perfect casual wear 
+       companion. Featuring a durable rubber outer sole, they'll 
+       withstand everything the weather can offer.</p>
+       
+       <div class=" d-flex gap-3 ">
+           <p class="amount fs-2  mt-2">$<span>125.00</span></p> 
+            <button class="percent px-2 m-4 ">50%</button>
+       </div>
+       <s class="fw-bolder">$250.00</s> 
+            
+            <div class="calculate d-flex gap-3 mt-3">
+               
+               <div class="count d-flex justify-content-center align-items-center gap-5 px-3">
+                   <img  class="minus" src="images/icon-minus.svg"> 
+                   <span class="count-value">0</span>
+                   <img  class="plus "src="images/icon-plus.svg">
+                   
+               </div>
+               
+               <button class="px-5 cartBtn ">
+                   <img class="p-3 cartIcon"src="images/icon-cart1.svg"> 
+                   <span class="">Add to cart</span>
+               </button> 
+                   </div></div>
+            
+    </div>
+        </div>
+    
+    
+    <!-- modal section -->
+                <div class="modal-bg">
+
+                 <div class="modal-body">
+                    
+                    <img  class= "closebutton" src="images/icon-close.svg">
+                    
+                    <div>
+                     <img class="pre-arrow rounded-circle" src="images/icon-previous.svg"> 
+                    <img class="frame2 mb-2 mt-4" src="images/image-product-1.jpg">
+                     <img class="next-arrow rounded-circle"src="images/icon-next.svg">
+                    </div>
+                </div>
+                <div class="mini-frames d-flex gap-1">
+                    <img class="mini" id="product1" src="images/image-product-1-thumbnail.jpg">
+                    <img class="mini ms-2" id="product2"src="images/image-product-2-thumbnail.jpg">
+                    <img class="mini ms-2" id="product3"src="images/image-product-3-thumbnail.jpg">
+                    <img class="mini" id="product4"src="images/image-product-4-thumbnail.jpg"></div>
+                
+                
+                </div>
+<!-- modal minibg -->
+
+    <div class="modal-mbg">
+            <div class="modal-mbody">
+
+                <h2>Cart</h2>
+                <hr>
+                <div class="cartboard">
+                    <label class="cartDisplay">Your cart is empty</label>
+                </div>
+               <div id="cartDisplay">
+                
+               </div>
+                 
+                <button type="button" class="btnCheck">Checkout<button>
+            </div>
+
+                    
+                </div>
+
+                
+    </div>
+                </div>
+            </div>
+        </div>
+    
+
+</div>
+    
+        <script src="e-commerce.js"></script>
+</body>
+
+</html>
